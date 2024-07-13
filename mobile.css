@@ -1,0 +1,24 @@
+@media screen and (max-width:400px) {
+  section .boxrelogio{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    min-height: 200px; 
+    flex-direction: column;
+
+   }
+
+
+   #boxhoras p, #boxminutos p, #boxsegundos p{
+    font-size: 3rem;
+    letter-spacing: 1px;
+
+    
+   }
+  
+   .boxrelogio span{
+    font-size: 1.5rem;
+
+   }
+  
+}

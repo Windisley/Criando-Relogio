@@ -1,0 +1,81 @@
+:root{
+  --primary-cor: #F20732;
+  --contraste: #F2CD5C;
+  --terciary-cor:#D9320D;
+  --sombra: #F25116;
+  --color-item: #590505;
+
+}
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ outline: none;
+ 
+   
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65%;
+
+}
+
+ section{
+ width: 100%;
+ margin: 0 auto;
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ transform-style: preserve-3d;
+ perspective: 1000px;
+ background-color: #f1f1f0;
+ padding: 1em;
+ }
+
+ section .boxrelogio{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background-color: rgb(39, 36, 36);
+  border-radius: 20px;
+  animation: opacity 2s 1 ease-in-out;
+  border: 5px solid;
+  padding: 1em;
+  overflow:hidden;
+ }
+
+ @keyframes opacity{
+  0%{
+    opacity: 0;
+    
+  }
+
+  100%{
+    opacity: 1;
+    
+  }
+
+ }
+
+ #boxhoras p, #boxminutos p, #boxsegundos p{
+  font-size: 4.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--primary-cor);
+  
+ }
+
+ .boxrelogio span{
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--contraste);
+ }
