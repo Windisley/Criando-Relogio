@@ -1,4 +1,3 @@
-
 let horas = document.querySelector("#boxhoras p")
 let minutos = document.querySelector("#boxminutos p")
 let segundos = document.querySelector("#boxsegundos p")
@@ -15,4 +14,4 @@ function formatarnumero(numero) {
   return numero < 10 ? "0" + numero : numero
 }
 
-setInterval(relogio, 900)
+setInterval(relogio, 999)
